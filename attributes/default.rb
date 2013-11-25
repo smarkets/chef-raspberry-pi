@@ -1,2 +1,2 @@
-node["raspberry-pi"]["overscan"] = true
-node["raspberry-pi"]["hdmi_mode"] = nil
+default["raspberry-pi"]["overscan"] = true
+default["raspberry-pi"]["hdmi_mode"] = nil
