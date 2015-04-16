@@ -47,3 +47,8 @@ hdmi_mode=<%=node["raspberry-pi"]["hdmi_mode"]%>
 
 #uncomment to overclock the arm. 700 MHz is the default.
 #arm_freq=800
+
+#Set GPU/CPU memory split
+gpu_mem_256=<%= node["raspberry-pi"]["memory_split"]["256"] %>
+gpu_mem_512=<%= node["raspberry-pi"]["memory_split"]["512"] %>
+gpu_mem_1024=<%= node["raspberry-pi"]["memory_split"]["1024"] %>
